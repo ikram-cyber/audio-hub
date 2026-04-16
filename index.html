@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Premium Audio Hub | The Collection</title>
+    <title>Premium Audio Hub | Ikram Cyber System</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
@@ -11,102 +11,71 @@
         body { font-family: 'Montserrat', sans-serif; background-color: #030303; }
         .font-luxury { font-family: 'Playfair Display', serif; }
         .gold-text { background: linear-gradient(to right, #bf953f, #fcf6ba, #b38728, #fbf5b7, #aa771c); -webkit-background-clip: text; color: transparent; }
-        .luxury-card { background: rgba(10, 10, 10, 0.8); backdrop-filter: blur(15px); transition: all 0.4s ease; border: 1px solid rgba(255,255,255,0.05); }
-        .luxury-card:hover { transform: translateY(-5px); background: rgba(15, 15, 15, 0.9); }
-        .border-purple-subtle:hover { border-color: rgba(192, 132, 252, 0.4); box-shadow: 0 10px 30px rgba(168, 85, 247, 0.1); }
-        .border-blue-subtle:hover { border-color: rgba(56, 189, 248, 0.4); box-shadow: 0 10px 30px rgba(56, 189, 248, 0.1); }
-        .border-green-subtle:hover { border-color: rgba(16, 185, 129, 0.4); box-shadow: 0 10px 30px rgba(16, 185, 129, 0.1); }
-        .border-gold-heavy { border-color: rgba(212, 175, 55, 0.5); box-shadow: 0 10px 40px rgba(212, 175, 55, 0.15); }
-        .btn-outline { border: 1px solid currentColor; transition: all 0.3s ease; }
-        .btn-outline:hover { background: currentColor; color: #000; }
-        .ambient-glow { position: fixed; width: 100vw; height: 100vh; background: radial-gradient(circle at 50% 0%, rgba(212,175,55,0.03) 0%, rgba(0,0,0,0) 60%); z-index: -1; top: 0; left: 0; pointer-events: none; }
+        .luxury-border { border: 1px solid rgba(212, 175, 55, 0.3); }
+        .luxury-card { background: rgba(10, 10, 10, 0.8); backdrop-filter: blur(15px); transition: all 0.4s ease; }
+        .luxury-card:hover { transform: translateY(-3px); border-color: rgba(212, 175, 55, 0.6); }
+        .btn-gold { background: linear-gradient(135deg, #bf953f 0%, #aa771c 100%); color: #000; }
     </style>
 </head>
-<body class="text-slate-300 antialiased pb-20 selection:bg-yellow-600/30">
-    <div class="ambient-glow"></div>
-    <main class="max-w-md mx-auto px-5 pt-16 space-y-10">
-        <div class="text-center space-y-5">
-            <h1 class="font-luxury text-3xl font-bold tracking-tight text-white uppercase">Premium <span class="gold-text">Audio Hub</span></h1>
-            <p class="text-slate-400 text-xs font-light leading-relaxed tracking-wide px-4">Pusat frekuensi sinkronisasi otak dan transformasi energi digital.</p>
-            <div class="w-8 h-[1px] bg-slate-800 mx-auto mt-4"></div>
+<body class="text-slate-300 antialiased pb-20 relative flex flex-col min-h-screen">
+    <main class="max-w-md mx-auto px-6 pt-16 flex-1 w-full space-y-10">
+        
+        <div class="text-center space-y-4">
+            <h1 class="font-luxury text-3xl font-bold text-white mt-4">Premium <span class="gold-text italic">Audio Hub</span></h1>
+            <p class="text-slate-400 text-[10px] uppercase tracking-[0.3em]">The Art of Mind Frequency</p>
+            <div class="w-12 h-[1px] bg-[#d4af37] mx-auto mt-4"></div>
+        </div>
+
+        <div class="pt-2">
+            <a href="https://ikram-cyber.github.io/subconscious-edu" class="flex items-center p-4 luxury-card border border-[#d4af37]/20 rounded-xl group bg-gradient-to-r from-black to-[#0a0a0a]">
+                <div class="w-10 h-10 rounded-full border border-[#d4af37]/30 flex items-center justify-center mr-4">
+                    <i class="fas fa-lightbulb text-[#d4af37] text-sm"></i>
+                </div>
+                <div class="flex-1">
+                    <h3 class="font-luxury text-white text-sm">Belum Paham Cara Kerjanya?</h3>
+                    <p class="text-[9px] text-slate-500 uppercase tracking-widest">Baca Penjelasan Ilmiah di Sini</p>
+                </div>
+                <i class="fas fa-chevron-right text-slate-700 group-hover:text-[#d4af37]"></i>
+            </a>
         </div>
 
         <div class="space-y-6">
-            <a href="https://ikram-cyber.github.io/audio-theta" class="block luxury-card border-purple-subtle rounded-xl p-6 group">
-                <div class="flex justify-between items-start mb-3">
+            <div class="luxury-card luxury-border rounded-2xl p-6 relative overflow-hidden">
+                <div class="flex justify-between items-start mb-4">
                     <div>
-                        <span class="text-[9px] font-bold uppercase tracking-[0.2em] text-[#a855f7]">Deep Relaxation</span>
-                        <h2 class="font-luxury text-xl text-white mt-1 group-hover:text-purple-300 transition-colors">Theta Original</h2>
+                        <h2 class="font-luxury text-white text-xl">Ultimate Bundle</h2>
+                        <p class="text-[9px] text-[#d4af37] font-bold tracking-widest uppercase">3 High-Fidelity Frequencies</p>
                     </div>
-                    <i class="fas fa-brain text-purple-900/50 text-3xl group-hover:text-purple-500/50 transition-colors"></i>
+                    <span class="bg-[#d4af37] text-black text-[8px] font-bold px-2 py-1 rounded">PROMO</span>
                 </div>
-                <p class="text-[10px] text-slate-400 font-light leading-relaxed mb-6">Kondisi meditasi dalam untuk pemrograman ulang pikiran bawah sadar secara murni.</p>
-                <div class="flex items-end justify-between mt-2">
-                    <div>
-                        <span class="text-[10px] text-slate-600 line-through block mb-0.5">Rp 600.000</span>
-                        <span class="text-lg font-medium text-white tracking-wide">Rp 300.000</span>
-                    </div>
-                    <span class="btn-outline text-purple-400 px-5 py-2 rounded-lg text-[9px] font-bold uppercase tracking-widest">PILIH</span>
+                <ul class="text-[11px] space-y-2 mb-6 text-slate-400">
+                    <li><i class="fas fa-check text-[#d4af37] mr-2"></i> Theta Original (Subconscious Access)</li>
+                    <li><i class="fas fa-check text-[#d4af37] mr-2"></i> Healing 432 Hz (Emotional Release)</li>
+                    <li><i class="fas fa-check text-[#d4af37] mr-2"></i> Miracle 528 Hz (DNA Repair)</li>
+                </ul>
+                <div class="flex items-center justify-between pt-4 border-t border-white/5">
+                    <div class="font-luxury text-2xl text-white">Rp 450.000</div>
+                    <a href="https://wa.me/6282123436383?text=Halo%20Bos%20Ikram,%20saya%20mau%20order%20Bundle%20Audio%20Premium" class="btn-gold px-6 py-2 rounded-lg font-bold text-[10px] uppercase tracking-wider">BELI SEKARANG</a>
                 </div>
-            </a>
+            </div>
+            
+            </div>
 
-            <a href="https://ikram-cyber.github.io/audio-healing" class="block luxury-card border-blue-subtle rounded-xl p-6 group">
-                <div class="flex justify-between items-start mb-3">
-                    <div>
-                        <span class="text-[9px] font-bold uppercase tracking-[0.2em] text-[#38bdf8]">Emotional Release</span>
-                        <h2 class="font-luxury text-xl text-white mt-1 group-hover:text-blue-300 transition-colors">Healing 432 Hz</h2>
-                    </div>
-                    <i class="fas fa-water text-blue-900/50 text-3xl group-hover:text-blue-500/50 transition-colors"></i>
-                </div>
-                <p class="text-[10px] text-slate-400 font-light leading-relaxed mb-6">Menyelaraskan harmoni tubuh dan alam. Efektif meredakan stres dan kecemasan.</p>
-                <div class="flex items-end justify-between mt-2">
-                    <div>
-                        <span class="text-[10px] text-slate-600 line-through block mb-0.5">Rp 600.000</span>
-                        <span class="text-lg font-medium text-white tracking-wide">Rp 300.000</span>
-                    </div>
-                    <span class="btn-outline text-blue-400 px-5 py-2 rounded-lg text-[9px] font-bold uppercase tracking-widest">PILIH</span>
-                </div>
-            </a>
-
-            <a href="https://ikram-cyber.github.io/audio-miracle" class="block luxury-card border-green-subtle rounded-xl p-6 group">
-                <div class="flex justify-between items-start mb-3">
-                    <div>
-                        <span class="text-[9px] font-bold uppercase tracking-[0.2em] text-[#10b981]">DNA Repair</span>
-                        <h2 class="font-luxury text-xl text-white mt-1 group-hover:text-green-300 transition-colors">Miracle 528 Hz</h2>
-                    </div>
-                    <i class="fas fa-bolt text-green-900/50 text-3xl group-hover:text-green-500/50 transition-colors"></i>
-                </div>
-                <p class="text-[10px] text-slate-400 font-light leading-relaxed mb-6">Frekuensi keajaiban untuk transformasi positif dan optimalisasi energi sel tubuh.</p>
-                <div class="flex items-end justify-between mt-2">
-                    <div>
-                        <span class="text-[10px] text-slate-600 line-through block mb-0.5">Rp 600.000</span>
-                        <span class="text-lg font-medium text-white tracking-wide">Rp 300.000</span>
-                    </div>
-                    <span class="btn-outline text-green-400 px-5 py-2 rounded-lg text-[9px] font-bold uppercase tracking-widest">PILIH</span>
-                </div>
-            </a>
-
-            <a href="https://ikram-cyber.github.io/audio-bundle" class="block luxury-card border-gold-heavy rounded-xl p-7 group mt-8 relative overflow-hidden bg-gradient-to-b from-[#0a0a0a] to-[#141208]">
-                <div class="absolute top-0 right-0 bg-[#d4af37] text-black text-[8px] font-bold px-3 py-1.5 rounded-bl-lg uppercase tracking-widest">Super Hemat</div>
-                <div class="flex flex-col mb-3 pt-2">
-                    <span class="text-[9px] font-bold uppercase tracking-[0.2em] mb-1 text-[#d4af37]">Ultimate Package</span>
-                    <h2 class="font-luxury text-2xl text-white mt-1">Bundle 3 in 1</h2>
-                </div>
-                <p class="text-[10px] text-slate-300 font-light leading-relaxed mb-6">Koleksi lengkap ketiga frekuensi audio premium untuk hasil manifestasi yang maksimal.</p>
-                <div class="flex items-end justify-between mt-2">
-                    <div>
-                        <span class="text-[10px] text-slate-600 line-through block mb-0">Rp 1.800.000</span>
-                        <span class="text-[11px] text-slate-400 line-through block mb-1">Rp 900.000</span>
-                        <span class="text-2xl font-bold tracking-tighter text-[#d4af37]">Rp 450.000</span>
-                    </div>
-                    <span class="btn-outline text-[#d4af37] px-6 py-3 rounded-lg text-[10px] font-bold uppercase tracking-widest">AMBIL SEMUA</span>
-                </div>
+        <div class="text-center">
+            <a href="https://ikram-cyber.github.io/master-hub" class="text-[10px] text-slate-600 hover:text-[#d4af37] uppercase tracking-widest transition-colors">
+                <i class="fas fa-arrow-left mr-2"></i> Kembali ke Master Hub
             </a>
         </div>
 
-        <footer class="pt-16 pb-8 text-center">
-            <p class="text-[9px] text-slate-700 uppercase tracking-[0.4em] font-light">&copy; 2026 Ikram Cyber System</p>
-        </footer>
     </main>
+
+    <footer class="pt-12 pb-8 text-center mt-auto">
+        <div class="flex justify-center gap-8 mb-6 text-xl">
+            <a href="https://instagram.com/ikram_cyber" class="text-slate-600"><i class="fab fa-instagram"></i></a>
+            <a href="https://tiktok.com/@ikram_cyber" class="text-slate-600"><i class="fab fa-tiktok"></i></a>
+            <a href="https://wa.me/6282123436383" class="text-slate-600"><i class="fab fa-whatsapp"></i></a>
+        </div>
+        <p class="text-[9px] text-slate-700 uppercase tracking-[0.4em] font-light">&copy; 2026 Ikram Cyber System</p>
+    </footer>
 </body>
 </html>
